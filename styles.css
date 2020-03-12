@@ -557,6 +557,13 @@ nav .logo img {
 .patfooter img {
     width: 70%;
 }
+/*form style*/
+
+#registro{width: 600px;
+    margin: auto;}
+    
+ .btn-primary{background-color:#4267B2 !important;
+        border-color:#4267B2 !important;}
 
 /* REDES SOCIALES*/
 
