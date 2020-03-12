@@ -10,17 +10,43 @@
      <!-- meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>LandingFacebook</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-    <header>
-        <div class="logo"></div>
-        <nav class="contenedor-nav">
-            <div><a href="#conocenos">Conocenos</a></div>
-            <div><a href="#perfiles">Perfiles</a></div>
-            <div><a href="#registrate">Registrate</a></div>
-        </nav>
-    </header>
+
+    <nav>
+
+        <section class="contenedor nav">
+           
+            <div class="logo">
+
+                <img src="./Assets/fac.png" alt="">
+
+            </div>
+
+            <div class="enlaces-header">
+
+            
+                <a href="#">Inicio</a>
+                <a href="#">Conocenos</a>
+                <a href="#">Aprender mas</a>
+                <a href="#">Hoy</a>
+                
+
+            </div>
+
+        
+
+
+        </section>
+    </nav>
 
     <main>
 
@@ -35,20 +61,31 @@
 
         </section>
         <section class="formulario" id="registrate">
-
+            <form id="registro">
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Nombre completo</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu nombre">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Dirección de correo</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mínimo 6 carácteres">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Regístrate</button>
+              </form>
         </section>
 
     </main>
     
-    <footer>
-    <div class="copyright">© 2020— Facebook</div>
-            <div class="iconos">
-                <div><i class="fab fa-spotify"></i></div>
-                <div><i class="fab fa-instagram"></i></div>
-                <div><i class="fab fa-twitter"></i></div>
-                <div><i class="fab fa-facebook"></i></div>
-                <div><i class="fab fa-telegram"></i></div>
-            </div>
-        </footer>
+
+
+        
+        
+
+    </header>
+
 </body>
 </html>
