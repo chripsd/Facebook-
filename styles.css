@@ -36,18 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 60px 0;
 }
 
-.contenedor3 {
-    width: 90%;
-    max-width: 1000px;
-    /* Tamaño maximo que puede tomar la imagen dentro del contenedor */
-    margin: auto;
-    overflow: hidden;
-    /* para quitar los scroll horizontales, basicamente corta la imagen */
-}
 
-h1 {
-    font-size: 50px;
-}
 
 /* HEADER */
 
@@ -93,22 +82,6 @@ nav .logo img {
     text-decoration: underline;
 }
 
-.hamburguer {
-    width: 80px;
-    height: 80px;
-    display: none;
-    /*  YES para mostrar el menu hamburguesa  NONE para tenerlo oculto  */
-    text-align: center;
-}
-
-.hamburguer>i {
-    /* Para el primer hijo de hamburguer i  */
-    font-size: 25px;
-    line-height: 80px;
-    z-index: 100;
-    cursor: pointer;
-    /* transition: color 0.4s ease-in; */
-}
 
 .contenido-header {
     width: 100;
@@ -124,16 +97,6 @@ nav .logo img {
     /* Tiempo que dura la animacion */
 }
 
-@keyframes animat {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-        /* el 1 es el mismo tamaño, 2 es el dobl del tamaño */
-    }
-}
-
 .textos-header {
     margin: 0 0 0 30px;
 }
@@ -144,6 +107,7 @@ nav .logo img {
     color: #5D6678;
 }
 
+<<<<<<< HEAD
 .contenido-header a {
     /* Para agregar el BOTON y los estilos requeridos */
     margin: 28px;
@@ -439,3 +403,6 @@ nav .logo img {
 
 
 }
+=======
+
+>>>>>>> 0a99342980620708b7f7e643e804cdefab8aae21
