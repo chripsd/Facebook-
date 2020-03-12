@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/2f6c0ce839.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -9,21 +13,52 @@
 </head>
 <body>
 
-    <form id="registro">
-        <div class="form-group">
-            <label for="exampleInputPassword1">Nombre completo</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu nombre">
-          </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Dirección de correo</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mínimo 6 carácteres">
-          </div>
-          <button type="submit" class="btn btn-primary">Regístrate</button>
-      </form>
+    <header>
+        <div class="logo"></div>
+        <nav class="contenedor-nav">
+            <div><a href="#conocenos">Conocenos</a></div>
+            <div><a href="#perfiles">Perfiles</a></div>
+            <div><a href="#registrate">Registrate</a></div>
+        </nav>
+    </header>
 
+    <main>
+
+        <section class="principal" id="conocenos">
+            
+        </section>
+        <section class="carrusel" id="perfiles">
+
+        </section>
+        <section class="formulario" id="registrate">
+            <form id="registro">
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Nombre completo</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingresa tu nombre">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Dirección de correo</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mínimo 6 carácteres">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Regístrate</button>
+              </form>
+        </section>
+
+    </main>
+    
+    <footer>
+    <div class="copyright">© 2020— Facebook</div>
+            <div class="iconos">
+                <div><i class="fab fa-spotify"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-facebook"></i></div>
+                <div><i class="fab fa-telegram"></i></div>
+            </div>
+        </footer>
 </body>
 </html>
